@@ -1,16 +1,18 @@
 {
-  "name": "Test-zhao",
-  "description": "",
+  "name": "sample-node-app",
   "scripts": {
   },
-  "env": {
-  },
   "formation": {
+    "web": {
+      "quantity": 1
+    }
   },
   "addons": [
 
   ],
   "buildpacks": [
-
+    {
+      "url": "heroku/nodejs"
+    }
   ]
 }
